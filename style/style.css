@@ -1,0 +1,144 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+div{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav li a{
+    font-family: 'Bayon', sans-serif;
+    
+}
+.navbar { box-shadow: none !important; } .btn { box-shadow: none !important; }
+h1{
+    font-size: 18px;
+    font-family: 'Bayon', sans-serif;
+}
+.banner img{
+    width: 100%;
+}
+.wrapall{
+    background-color: whitesmoke;
+}
+
+.item{
+    width: 23%;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    position: fixed;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 414px){
+    .item{
+        width: 47%;
+        margin: 4px;
+    }
+ }
+@media only screen and (min-width: 768px){
+    .item{
+        width: 22%;
+    }
+ }
+
+ .modal-header{
+    text-align: left;
+}
+.modal-title{
+    font-family: 'Dangrek', cursive;
+    font-size: 18px;
+}
+#img_item{
+    float: left;
+    width: 50%;
+}
+#img_item img{
+    width: 50%;
+}
+#wrap_modal{
+    display: block;
+    width: 100%;
+}
+.title_item{
+    font-size: 100%;
+}
+#detail{
+    width: 50%;
+    float: right;
+}
+.modal-footer{
+    font-family: 'Dangrek', cursive;
+}
+
+footer{
+    font-family: 'Dangrek', cursive;
+}
+#socail a{
+    text-decoration: none;
+}
+.text-reset{
+    text-decoration: none;
+}
+
+.container1{
+   
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container1 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container1 .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: whitesmoke;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container1 .box-container .box img{
+    width: 80%;
+}
+
+.container1 .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container1 .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container1 .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#2a9df4;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container1 .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container1 .box-container .box img:hover{
+    
+    transform: scale(1.05);
+}
+
+
+
